@@ -1,0 +1,108 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  line-height: 1.6;
+  background: #f9f9f9;
+  color: #333;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 50px;
+  background: #111;
+  color: #fff;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+}
+
+.navbar .logo {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.navbar .nav-links {
+  list-style: none;
+  display: flex;
+}
+
+.navbar .nav-links li {
+  margin: 0 15px;
+}
+
+.navbar .nav-links a {
+  color: #fff;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.navbar .nav-links a:hover {
+  color: #ff9800;
+}
+
+/* Hero */
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 100px 50px;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #06a7f1, #00eeff);
+  color: #fff;
+}
+
+.hero-text h1 {
+  font-size: 40px;
+}
+
+.hero-text h1 span {
+  color: #000;
+}
+
+.hero-text h2 {
+  margin: 20px 0;
+}
+
+.hero .btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background: #000;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.hero-img img {
+  width: 300px;
+  border-radius: 50%;
+  border: 5px solid #fff;
+}
+
+/* About */
+.about, .skills, .projects, .contact {
+  padding: 80px 50px;
+  text-align: center;
+}
+
+.about p {
+  max-width: 600px;
+  margin: auto;
+}
+
+/* Skills */
+.skill-list {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
